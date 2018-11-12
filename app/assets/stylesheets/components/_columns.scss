@@ -1,0 +1,24 @@
+.dashboard-column {
+    float: left;
+}
+.left {
+    width: 100%;
+
+}
+
+.right {
+    width: 00%;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    p {
+      padding-left: 10px;
+      font-size: 12px;
+    }
+}
+
+.overall-attention {
+  color: $my-gray;
+  font-size: 14px;
+  background-color: white;
+  height: 300px;
+  margin-top: 10px;
+}

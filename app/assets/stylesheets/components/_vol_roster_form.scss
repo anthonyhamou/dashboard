@@ -1,0 +1,83 @@
+// main layout
+
+.vol-roster-container {
+  margin: 0 auto;
+  // padding: 10px 0px 10px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.volunteer-lookup {
+  margin: 10px;
+  height: 70vh;
+  flex: 1 1 30%;
+}
+
+.volunteer-lookup-results {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: solid 1px #f0f0f0;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+  overflow: auto;
+  height: 70vh;
+}
+
+.display-roster-section {
+  height: 70vh;
+  flex: 1 1 60%;
+  margin: 10px;
+}
+
+.display-roster-results {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+  height: 70vh;
+  overflow: auto;
+}
+
+.assign-forms-both {
+  // margin: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // background-color: #E5E5E5;
+  // padding: 15px;
+  // box-shadow: inset 0 0px 1px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+  border-radius: 3px;
+}
+
+.assign-form {
+  flex: 1 1 50%;
+  margin: 10px 0px 10px 0px;
+}
+
+// volunteer lookup
+
+.search-container {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.search-input {
+  flex: 1 1 auto;
+  margin: 5px;
+}
+
+.search-button {
+  flex: 0 0 50px;
+  margin: 5px;
+}
+
+.volunteer-assign-break {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+

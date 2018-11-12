@@ -1,0 +1,56 @@
+// GothamPro styles from app/assets/fonts
+@font-face {
+  font-family: 'GothamPro';
+  src: font-url('GothamPro/GothamPro.eot?') format('eot'),
+       font-url('GothamPro/GothamPro.otf')  format('opentype'),
+       font-url('GothamPro/GothamPro.woff') format('woff'),
+       font-url('GothamPro/GothamPro.ttf')  format('truetype'),
+       font-url('GothamPro.svg#GothamPro') format('svg');
+}
+$gotham: "GothamPro";
+
+@font-face {
+  font-family: 'GothamPro-Light';
+  src: font-url('GothamPro-Light/GothamPro-Light.eot?') format('eot'),
+       font-url('GothamPro-Light/GothamPro-Light.otf')  format('opentype'),
+       font-url('GothamPro-Light/GothamPro-Light.woff') format('woff'),
+       font-url('GothamPro-Light/GothamPro-Light.ttf')  format('truetype'),
+       font-url('GothamPro-Light/GothamPro-Light.svg#GothamPro-Light') format('svg');
+}
+$gotham-light: "GothamPro-Light";
+
+@font-face {
+  font-family: 'GothamPro-Medium';
+  src: font-url('GothamPro-Medium/GothamPro-Medium.eot?') format('eot'),
+       font-url('GothamPro-Medium/GothamPro-Medium.otf')  format('opentype'),
+       font-url('GothamPro-Medium/GothamPro-Medium.woff') format('woff'),
+       font-url('GothamPro-Medium/GothamPro-Medium.ttf')  format('truetype'),
+       font-url('GothamPro-Medium/GothamPro-Medium.svg#GothamPro-Medium') format('svg');
+}
+$gotham-medium: "GothamPro-Medium";
+
+@font-face {
+  font-family: 'GothamPro-Bold';
+  src: font-url('GothamPro-Bold/GothamPro-Bold.eot?') format('eot'),
+       font-url('GothamPro-Bold/GothamPro-Bold.otf')  format('opentype'),
+       font-url('GothamPro-Bold/GothamPro-Bold.woff') format('woff'),
+       font-url('GothamPro-Bold/GothamPro-Bold.ttf')  format('truetype'),
+       font-url('GothamPro-Bold/GothamPro-Bold.svg#GothamPro-Bold') format('svg');
+}
+$gotham-bold: "GothamPro-Bold";
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,500');
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+}
+
+$text-font: "Montserrat";
+
+@font-face {
+  font-family: 'Oswald', sans-serif;
+}
+
+$header-font: "Oswald";
+

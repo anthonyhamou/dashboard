@@ -1,0 +1,121 @@
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+
+}
+
+body {
+  color: #555;
+  background: #fff;
+}
+.nav-tabs {
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  background-color: #FAFBFC;
+}
+.nav > li:active > a {
+  color: $my-blue;
+  border-top: 2px solid #77C9D4;
+  border-left: 1px solid lightgray;
+  background-color: #FAFBFC;
+  box-shadow: none;
+}
+
+.nav > li > a {
+    color: #bbb;
+    font-size: 16px;
+    width: 180px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    &:hover {
+      border: none;
+      color: #888;
+      cursor: pointer;
+    }
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: $my-blue;
+  border: 1px solid $my-light-gray;
+  height: -5px;
+  border-top: 2px solid #77C9D4;
+  border-bottom: 3px solid transparent;
+  svg {
+    fill: $my-blue;
+  }
+}
+
+main {
+  min-width: 80%;
+  max-width: 90%;
+  padding: 50px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.nav > input {
+  display: none;
+}
+
+tab:hover > svg {
+  fill: #888;;
+}
+
+.nav > input:checked + label  {
+  color: $my-blue;
+  border: 1px solid $my-light-gray;
+  border-top: 2px solid $my-blue;
+  border-bottom: 1px solid #fff;
+  border-radius: 4px;
+}
+
+
+@media screen and (max-width: 650px) {
+  label {
+    font-size: 0;
+  }
+  label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  label {
+    padding: 15px;
+  }
+}
+input:checked + label > svg {
+  fill: $my-blue;
+}
+
+.active:active {
+  svg {
+    fill: $my-blue;
+  }
+}
+
+.tab {
+  svg {
+  fill: #bbb;
+  width: 20px;
+  margin-right: 5px;
+  }
+}
+
+.tab-content > .row {
+  margin-top: 50px;
+}

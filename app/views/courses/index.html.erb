@@ -1,0 +1,19 @@
+<% title 'Courses' %>
+<div class="course-information">
+  <h1 class="text-center">Your Courses</h1>
+</div>
+<div class="wrapper">
+  <div class="better-container">
+    <div class="main-page">
+      <%= render 'filters', total_course_count: @total_course_count %>
+      <div class="course-content">
+        <%= render 'course_list_header', course_count: @course_count %>
+        <%= render 'shared/course_list', courses: @courses %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= render 'shared/modal', title: 'Add a New Course', partial: 'courses/form', course: @course, subjects: @filter_subjects, addresses: @filter_addresses %>
+
+

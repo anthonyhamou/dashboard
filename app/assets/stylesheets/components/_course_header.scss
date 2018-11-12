@@ -1,0 +1,156 @@
+// ----------- COURSE HEADER ----------- //
+
+
+.course-header {
+  // display: flex;
+  padding-bottom: 90px;
+  margin-bottom: 50px;
+  position: relative;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+
+  background-color: white;
+  height: auto;
+    h1, h2, h3, h4, h5, h6, p {
+      text-align: left;
+      padding: 10px;
+      margin: 0px;
+    }
+    h1 {
+      font-size: 2em;
+      padding-bottom: 0px;
+    }
+    h2 {
+      color: $my-blue;
+    }
+  display: flex;
+  justify-content: space-between;
+  box-shadow: inset 0 0px 1px rgba(0, 0, 0, 0.35), 0 0px 1px #FFF, 0 1px 0 #FFF;
+}
+
+.location-box-course-header {
+  padding: 8px 0 8px 10px;
+  width: auto;
+  background-color: $my-gray;
+  color: white;
+  height: 30px;
+  margin-top: 20px;
+  display: flex;
+  flex: no-wrap;
+  align-items: center;
+}
+
+
+// ----------- COURSE SPECIFIC NAV ICONS ----------- //
+
+.course-nav-bar {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+
+.course-nav-icons-group {
+  display: flex;
+  justify-content: flex-end;
+  background-color: white;
+  .active {
+    height: 50px;
+    position: relative;
+    background-position: 0 -88px;
+    background-color: #FAFBFC;
+    p {
+      background-color: #FAFBFC;
+      color: $my-green;
+    }
+    .course-nav-icon {
+  border-top: 2px solid $my-blue;
+  border-left: 1px solid lightgray;
+  background-color: #FAFBFC;
+  box-shadow: none;
+    p {
+      color: $my-green;
+    }
+    svg {
+      fill: $my-green;
+    }
+    }
+  }
+
+  .course-nav-icon {
+    width: 150px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.08);
+    box-shadow: 0 4px 6px rgba(50,50,93,.11);
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    p {
+      padding: 1px 10px 1px 10px;
+      text-align: center;
+      font-size: 14px;
+      color: $my-gray;
+    }
+    svg {
+      fill: $my-gray;
+      text-align: center;
+    }
+  }
+}
+
+.course-nav-icon svg {
+  width: 40px;
+  color: white;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-right: 55px;
+  margin-left: 55px;
+}
+
+.teacher-icon svg {
+  fill: $my-blue;
+  &:hover {
+  background-color: $my-blue;
+  fill: white;
+  }
+}
+
+.teacher-icon .active svg {
+  background-color: $my-blue;
+  fill: white;
+
+}
+
+.student-icon svg {
+    fill: $my-green;
+    &:hover {
+    background-color: $my-green;
+    fill: white;
+  }
+}
+
+.active .student-icon svg {
+  background-color: $my-green;
+  fill: white;
+}
+
+.course-icon svg {
+  fill: $my-gray;
+    &:hover {
+    background-color: $my-gray;
+    fill: white;
+  }
+}
+
+.course-icon-active svg {
+  background-color: $my-gray;
+  fill: white;
+  border-top: 2px solid $my-blue;
+
+}
